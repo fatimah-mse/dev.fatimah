@@ -35,7 +35,7 @@ export default function HomeHero() {
                     </div>
                 </div>
                 <div data-aos="zoom-in" className="relativ w-45 max-768:w-full h-full bg-myPrimary rounded-3xl">
-                    <img className="w-1/2 absolute left-1/2 transform -translate-x-1/2 bottom-0 object-cover" src={heroImg} alt="hero-img" />
+                    <img className="w-1/2 max-768:relative absolute left-1/2 transform -translate-x-1/2 bottom-0 object-cover" src={heroImg} alt="hero-img" />
                     <img className="absolute -top-1 left-0 w-1/3" src={abs1} alt="abs1" />
                     <img className="absolute -bottom-1 -right-[1px] w-1/3" src={abs2} alt="abs1" />
                 </div>
