@@ -1,7 +1,7 @@
 import heroImg from "../assets/Hero/hero-img.png"
 import abs1 from "../assets/Hero/Abstract 1.png"
 import abs2 from "../assets/Hero/Abstract 2.png"
-import contact from "../assets/Hero/contact-icon.png"
+import contact from "../assets/Footer/call.png"
 import download from "../assets/Hero/download-icon.png"
 import { Link } from "react-router"
 

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import arrow from '../assets/scroll to top.png'
+import arrow from '../assets/contact/arrow.png'
 export default function ScrollToTop() {
     const [showScrollTo, setShowScrollTo] = useState(false)
 
@@ -27,6 +27,6 @@ export default function ScrollToTop() {
     }
 
     return (
-        <img src={arrow} onClick={handleScrollToTop} className={`${showScrollTo ? "translate-x-0" : "translate-x-40"} bg-white w-10 2xl:w-14 cursor-pointer rounded-full transition-all duration-300 ease-in-out fixed bottom-6 right-6 z-40 flex justify-center items-center text-4xl`}/>
+        <img src={arrow} onClick={handleScrollToTop} className={`${showScrollTo ? "translate-x-0" : "translate-x-40"} w-10 2xl:w-14 cursor-pointer transition-all duration-300 ease-in-out fixed bottom-6 right-6 z-40 flex justify-center items-center text-4xl -rotate-90`}/>
     )
 }

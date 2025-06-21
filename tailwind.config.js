@@ -11,8 +11,8 @@ export default {
       },
       colors: {
         "mybg": "#F2EDDF",
-        "myPrimary": "#1B5998",
-        "mySecondary": "#F15D8E",
+        "myPrimary": "#3C73A0",
+        "mySecondary": "#E97A94",
       },
       screens: {
         "4xl": "1921px",
