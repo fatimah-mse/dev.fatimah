@@ -3,7 +3,6 @@ import abs1 from "../assets/Hero/Abstract 1.png"
 import abs2 from "../assets/Hero/Abstract 2.png"
 import contact from "../assets/Footer/call.png"
 import download from "../assets/Hero/download-icon.png"
-import { Link } from "react-router"
 
 export default function HomeHero() {
 
@@ -14,13 +13,13 @@ export default function HomeHero() {
                     <h1 className="text-[44px] max-768:text-3xl text-myPrimary font-merienda font-extrabold">Fatimah Mse Welcome’s You!</h1>
                     <p className="font-bold text-gray-800 text-sm">I am a passionate and experienced front-end developer dedicated to building interactive and seamless web experiences. I possess strong skills in translating designs into clean and efficient code, with a focus on high performance and user-friendliness. Explore my portfolio to see how technical expertise contributes to creating engaging and functional user interfaces</p>
                     <div className="flex  items-start gap-5">
-                        <Link target="_blank" to={"https://drive.google.com/file/d/1-0q01hl1NxfbhPl3vuHAoK6gvRmzT3Sk/view?usp=sharing"} className="bg-myPrimary flex w-max px-4 py-2 rounded-lg gap-2">
+                        <a target="_blank" href="https://drive.google.com/file/d/1LjqTxZNcGsxqEdX9x9-d2o7NYoBn0ZdK/view?usp=sharing" className="bg-myPrimary flex w-max px-4 py-2 rounded-lg gap-2">
                             <span className="text-white">Download CV</span>
                             <img src={download} alt="download-icon" />
-                        </Link>
+                        </a>
                         <div className="flex w-max py-2  gap-2">
                             <img src={contact} alt="download-icon" />
-                            <Link to="tel: +963981944215" className="text-mySecondary font-bold">Contact Me</Link>
+                            <a href="tel: +963981944215" className="text-mySecondary font-bold">Contact Me</a>
                         </div>
                     </div>
                     <div className="bg-white px-5 py-4 rounded-lg w-full flex flex-wrap max-768:gap-8 justify-between">

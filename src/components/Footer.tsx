@@ -27,46 +27,46 @@ export default function Footer() {
                 <div className="flex gap-3">
                     {FooterSocialData.map((link, index) => {
                         return (
-                            <Link
+                            <a
                                 key={index}
-                                to={link.link}
+                                href={link.link}
                             >
                                 <img
                                     className="w-8 rounded-md"
                                     src={link.img}
                                     alt="icon" />
-                            </Link>
+                            </a>
                         )
                     })}
                 </div>
             </div>
             <div className="flex flex-wrap max-768:flex-col max-768:!items-start justify-center items-center gap-6">
-                <Link
+                <a
                     target="_blank"
                     className="flex gap-1"
-                    to={"mailto: fatimahmse83@gmail.com"}
+                    href="mailto: fatimahmse83@gmail.com"
                 >
                     <img className="w-6" src={email} alt="email" />
                     <span className="text-white font-semibold">fatimahmse83@gmail.com</span>
-                </Link>
+                </a>
                 <span className="w-[2px] h-6 bg-white rounded-lg max-768:hidden"></span>
-                <Link
+                <a
                     target="_blank"
                     className="flex gap-1"
-                    to={"tel: +963981944215"}
+                    href="tel: +963981944215"
                 >
                     <img className="w-6" src={call} alt="call" />
                     <span className="text-white font-semibold">+963 981 944 215</span>
-                </Link>
+                </a>
                 <span className="w-[2px] h-6 bg-white rounded-lg max-768:hidden"></span>
-                <Link
+                <a
                     target="_blank"
                     className="flex gap-1"
-                    to={"https://www.google.com/maps/place/Jableh,+Syria/@35.3600037,35.9295846,14z/data=!3m1!4b1!4m6!3m5!1s0x1523fe3a68bf33eb:0xe07c09df6304fdfe!8m2!3d35.3614713!4d35.9267389!16zL20vMDg5Y3Jz?authuser=0&entry=ttu&g_ep=EgoyMDI1MDYxNi4wIKXMDSoASAFQAw%3D%3D"}
+                    href="https://www.google.com/maps/place/Jableh,+Syria/@35.3600037,35.9295846,14z/data=!3m1!4b1!4m6!3m5!1s0x1523fe3a68bf33eb:0xe07c09df6304fdfe!8m2!3d35.3614713!4d35.9267389!16zL20vMDg5Y3Jz?authuser=0&entry=ttu&g_ep=EgoyMDI1MDYxNi4wIKXMDSoASAFQAw%3D%3D"
                 >
                     <img className="w-6" src={location} alt="location" />
                     <span className="text-white font-semibold">Jableh, Latakia, Syria</span>
-                </Link>
+                </a>
 
             </div>
             <h5 className="text-white font-merienda font-bold text-center text-lg max-768:text-base pt-4 border-t-2 border-white">Copyright © 2025 Fatimah Mse. All rights reserved.</h5>
