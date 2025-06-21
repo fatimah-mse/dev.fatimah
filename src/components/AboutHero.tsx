@@ -5,8 +5,8 @@ import abs2 from "../assets/Hero/Abstract 2.png"
 export default function AboutHero() {
     return (
         <section className="4xl:px-[10%] xl:h-hero-lg h-hero-md max-768:h-full mt-[72px] max-992:mt-[67px] py-10 max-768:py-5 max-992:px-10 max-768:px-5 px-20 bg-mybg relative flex flex-wrap items-center max-768:flex-col gap-y-10 justify-between">
-            <div data-aos="zoom-in" className="relativ w-45 max-768:w-full h-full">
-                <img className="w-full h-full object-cover rounded-3xl" src={heroImg} alt="hero-img" />
+            <div data-aos="zoom-in" className="relativ w-45 max-768:w-full h-full bg-myPrimary rounded-3xl">
+                <img className="w-1/2 absolute left-1/2 transform -translate-x-1/2 bottom-0 object-cover" src={heroImg} alt="hero-img" />
                 <img className="absolute -top-1 left-0 w-1/3" src={abs1} alt="abs1" />
                 <img className="absolute -bottom-1 -right-[1px] w-1/3" src={abs2} alt="abs1" />
             </div>
