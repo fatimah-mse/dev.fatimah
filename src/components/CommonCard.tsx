@@ -23,7 +23,7 @@ export default function CommonCard({ isIcon, icon, title, desc, delay, width }: 
                     alt="icon"
                 />
             )}
-            <h3 className={`${isIcon ? 'text-center' : 'text-mySecondary'} font-bold text-xl text-gray-800 dark:text-mybg transition-all duration-700 ease-in-out`}>
+            <h3 className={`${isIcon ? 'text-center' : '!text-mySecondary'} font-bold text-xl text-gray-800 dark:text-mybg transition-all duration-700 ease-in-out`}>
                 {title}
             </h3>
             <p className={`${isIcon ? 'text-center' : ''} text-gray-800 dark:text-mybg transition-all duration-700 ease-in-out`}>
