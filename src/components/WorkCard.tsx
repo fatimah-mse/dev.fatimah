@@ -13,7 +13,7 @@ export default function WorkCard({ delay, title, link, img }: Tcard) {
         <div
             data-aos="fade-up"
             data-aos-delay={delay}
-            className="w-[32%] max-992:w-48 max-576:w-full bg-white p-4 rounded-lg shadow-lg flex flex-col items-center gap-5 max-w-[500px] dark:bg-zinc-600 transition-all duration-700 ease-in-out"
+            className="w-[32%] max-992:w-48 max-576:w-full bg-white p-4 rounded-lg shadow-lg flex flex-col items-center gap-5 max-w-[500px] dark:bg-slate-600 transition-all duration-700 ease-in-out"
         >
             <h3 className="font-merienda font-extrabold text-myPrimary text-xl dark:text-mybg transition-all duration-700 ease-in-out">
                 {title}

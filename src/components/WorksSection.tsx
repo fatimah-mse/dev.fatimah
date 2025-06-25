@@ -20,7 +20,7 @@ export default function WorksSection() {
                     )
                 })}
             </div>
-            <Link data-aos="zoom-out" className="px-5 py-3 rounded-lg w-max mx-auto block bg-myPrimary text-white hover:opacity-80 transition-all duration-500 dark:bg-zinc-600" to={"/portfolio"}>View All Projects</Link>
+            <Link data-aos="zoom-out" className="px-5 py-3 rounded-lg w-max mx-auto block bg-myPrimary text-white hover:opacity-80 transition-all duration-500 dark:bg-slate-600" to={"/portfolio"}>View All Projects</Link>
         </section>
     )
 }

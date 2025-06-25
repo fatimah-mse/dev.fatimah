@@ -22,7 +22,7 @@ export default function HomeHero() {
                             <a href="tel: +963981944215" className="dark:text-mybg transition-all duration-700 ease-in-out text-mySecondary font-bold">Contact Me</a>
                         </div>
                     </div>
-                    <div className="dark:bg-zinc-600 transition-all duration-700 ease-in-out bg-white px-5 py-4 rounded-lg w-full flex flex-wrap max-768:gap-8 justify-between">
+                    <div className="dark:bg-slate-600 transition-all duration-700 ease-in-out bg-white px-5 py-4 rounded-lg w-full flex flex-wrap max-768:gap-8 justify-between">
                         <div className="w-45 max-768:w-full">
                             <span className="text-4xl font-bold text-gray-800 dark:text-mybg transition-all duration-700 ease-in-out">55 <span className="text-mySecondary">+</span></span>
                             <h3 className="text-base font-bold text-gray-800 dark:text-mybg transition-all duration-700 ease-in-out" >Completed Projects</h3>

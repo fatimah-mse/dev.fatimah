@@ -11,7 +11,7 @@ export default function ContactCard({ link, desc, href, delay }: Tcard) {
         <div
             data-aos="fade-right"
             data-aos-delay={delay}
-            className="flex justify-between items-center rounded-lg bg-white p-5 dark:bg-zinc-600 transition-all duration-700 ease-in-out"
+            className="flex justify-between items-center rounded-lg bg-white p-5 dark:bg-slate-600 transition-all duration-700 ease-in-out"
         >
             <div className="flex flex-col gap-2">
                 <span className="text-gray-600 font-semibold dark:text-mybg transition-all duration-700 ease-in-out">

@@ -14,7 +14,7 @@ export default function CommonCard({ isIcon, icon, title, desc, delay, width }: 
             data-aos="fade-up"
             data-aos-delay={delay}
             data-aos-anchor-placement="top-bottom"
-            className={`${width} max-992:w-48 max-576:w-full bg-white dark:bg-zinc-600 p-8 rounded-lg shadow-lg flex flex-col gap-5 transition-all duration-700 ease-in-out ${isIcon ? 'items-center justify-center' : ''}`}
+            className={`${width} max-992:w-48 max-576:w-full bg-white dark:bg-slate-600 p-8 rounded-lg shadow-lg flex flex-col gap-5 transition-all duration-700 ease-in-out ${isIcon ? 'items-center justify-center' : ''}`}
         >
             {isIcon && (
                 <img

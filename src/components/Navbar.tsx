@@ -71,7 +71,7 @@ export default function Navbar() {
                         type="checkbox"
                     />
                     <div
-                        className="relative w-24 h-10 bg-white peer-checked:bg-zinc-600 rounded-full after:absolute after:content-[''] after:w-8 after:h-8 after:bg-mySecondary peer-checked:after:from-zinc-900 peer-checked:after:to-zinc-900 after:rounded-full after:top-1 after:left-1.5 active:after:w-8 peer-checked:after:left-[90px] peer-checked:after:translate-x-[-100%] shadow-sm duration-700 after:duration-700 after:shadow-md"
+                        className="relative w-24 h-10 bg-white peer-checked:bg-slate-600 rounded-full after:absolute after:content-[''] after:w-8 after:h-8 after:bg-mySecondary peer-checked:after:from-zinc-900 peer-checked:after:to-zinc-900 after:rounded-full after:top-1 after:left-1.5 active:after:w-8 peer-checked:after:left-[90px] peer-checked:after:translate-x-[-100%] shadow-sm duration-700 after:duration-700 after:shadow-md"
                     ></div>
                     <svg
                         height="0"
@@ -111,7 +111,7 @@ export default function Navbar() {
                         type="checkbox"
                     />
                     <div
-                        className="relative w-24 h-10 bg-white peer-checked:bg-zinc-600 rounded-full after:absolute after:content-[''] after:w-8 after:h-8 after:bg-mySecondary peer-checked:after:from-zinc-900 dark:peer-checked:after:from-slate-200 peer-checked:after:to-zinc-900 dark:peer-checked:after:to-slate-400 after:rounded-full after:top-1 after:left-1.5 active:after:w-8 peer-checked:after:left-[90px] peer-checked:after:translate-x-[-100%] shadow-sm duration-700 after:duration-700 after:shadow-md"
+                        className="relative w-24 h-10 bg-white peer-checked:bg-slate-600 rounded-full after:absolute after:content-[''] after:w-8 after:h-8 after:bg-mySecondary peer-checked:after:from-zinc-900 dark:peer-checked:after:from-slate-200 peer-checked:after:to-zinc-900 dark:peer-checked:after:to-slate-400 after:rounded-full after:top-1 after:left-1.5 active:after:w-8 peer-checked:after:left-[90px] peer-checked:after:translate-x-[-100%] shadow-sm duration-700 after:duration-700 after:shadow-md"
                     ></div>
                     <svg
                         height="0"
