@@ -84,7 +84,7 @@ export default function ContactSection() {
     // }
 
     return (
-        <section className='4xl:px-[10%] py-16 max-768:py-10 max-992:px-10 max-768:px-5 px-20 bg-mybg flex justify-between items-start flex-wrap gap-y-6 overflow-hidden'>
+        <section className='4xl:px-[10%] py-16 max-768:py-10 max-992:px-10 max-768:px-5 px-20 bg-mybg flex justify-between items-start flex-wrap gap-y-6 overflow-hidden dark:bg-slate-800 transition-all duration-700 ease-in-out'>
             <div className='w-48 max-768:w-full flex flex-col gap-6 max-w-[700px]'>
                 {ContactData.map((e, index) => {
                     return (
@@ -98,12 +98,12 @@ export default function ContactSection() {
                     )
                 })}
             </div>
-            <form ref={formRef} onSubmit={handleSubmit} data-aos="fade-left" className='w-48 max-768:w-full flex flex-col items-center gap-4 max-w-[700px] rounded-lg bg-white p-5'>
-                <input required className='w-full px-4 py-3 bg-mybg border rounded-lg' type="text" name="name" placeholder='Your Name' />
-                <input required className='w-full px-4 py-3 bg-mybg border rounded-lg' type="email" name="email" placeholder='Your Email' />
-                <input required className='w-full px-4 py-3 bg-mybg border rounded-lg' type="tel" name="number" placeholder='Your Number' />
-                <textarea required name="message" className='w-full px-4 py-3 bg-mybg border rounded-lg h-56' placeholder='Your Message here...'></textarea>
-                <input required className='w-max px-6 py-3 bg-myPrimary text-white border rounded-lg' type="submit" value="Send" />
+            <form ref={formRef} onSubmit={handleSubmit} data-aos="fade-left" className='w-48 max-768:w-full flex flex-col items-center gap-4 max-w-[700px] rounded-lg bg-white p-5 dark:border dark:border-mybg dark:bg-slate-800 transition-all duration-700 ease-in-out'>
+                <input required className='w-full dark:text-mybg px-4 py-3 bg-mybg border rounded-lg dark:bg-zinc-600 dark:border-none transition-all duration-700 ease-in-out' type="text" name="name" placeholder='Your Name' />
+                <input required className='w-full dark:text-mybg px-4 py-3 bg-mybg border rounded-lg dark:bg-zinc-600 dark:border-none transition-all duration-700 ease-in-out' type="email" name="email" placeholder='Your Email' />
+                <input required className='w-full dark:text-mybg px-4 py-3 bg-mybg border rounded-lg dark:bg-zinc-600 dark:border-none transition-all duration-700 ease-in-out' type="tel" name="number" placeholder='Your Number' />
+                <textarea required name="message" className='w-full dark:text-mybg px-4 py-3 bg-mybg border rounded-lg h-56 dark:bg-zinc-600 dark:border-none transition-all duration-700 ease-in-out ' placeholder='Your Message here...'></textarea>
+                <input required className='w-max px-6 py-3 bg-myPrimary text-white dark:bg-zinc-600 dark:text-mybg font-semibold rounded-lg transition-all duration-700 ease-in-out' type="submit" value="Send" />
             </form>
         </section>
     )
