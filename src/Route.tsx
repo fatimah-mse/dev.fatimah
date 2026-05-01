@@ -1,6 +1,6 @@
 import 'aos/dist/aos.css'
 import AOS from 'aos'
-import { useEffect, useState } from 'react'
+// import { useEffect, useState } from 'react'
 import './App.css'
 // import Preloader from './components/Preloader'
 // import { Outlet } from 'react-router'
@@ -11,31 +11,31 @@ import img from "../src/assets/Under maintenance.webp"
 
 function Route() {
 
-  const [showPreloader, setShowPreloader] = useState(true)
+  // const [showPreloader, setShowPreloader] = useState(true)
 
-  useEffect(() => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
-    })
-  }, [])
+  // useEffect(() => {
+  //   window.scrollTo({
+  //     top: 0,
+  //     behavior: 'smooth'
+  //   })
+  // }, [])
 
-  useEffect(() => {
+  // useEffect(() => {
 
-    AOS.init({
-      duration: 800,
-      easing: 'ease-in-out',
-      once: false,
-      mirror: false
-    })
+  //   AOS.init({
+  //     duration: 800,
+  //     easing: 'ease-in-out',
+  //     once: false,
+  //     mirror: false
+  //   })
 
-    const timer = setTimeout(() => {
-      setShowPreloader(false)
-    }, 3000)
+  //   const timer = setTimeout(() => {
+  //     setShowPreloader(false)
+  //   }, 3000)
 
-    return () => clearTimeout(timer)
+  //   return () => clearTimeout(timer)
 
-  }, [])
+  // }, [])
 
   return (
     <>
