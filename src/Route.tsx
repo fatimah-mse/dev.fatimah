@@ -1,5 +1,5 @@
 import 'aos/dist/aos.css'
-import AOS from 'aos'
+// import AOS from 'aos'
 // import { useEffect, useState } from 'react'
 import './App.css'
 // import Preloader from './components/Preloader'
